@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: UfM+9Bve7kdupn1fflFl5rzC2i4fwzR/1qlgimtuGriRnuV4idt3Q641QQ1Q24VBuKYtx13mNd3KXOpUcfES9rtal69Jf0SmKeCOM3MU+O+bLv7o5+WDos0vqw8Gw9VPdYZNpQFpudFIQVNeS2VVzuv9EHdJAgYQ7V40DWiBCBzechAOBnkeGftS7kR8drDhTk1/pPeN1RWtpiJYxAv2Tjpu7KWc5hZcW4wBhJWVFsJyVVm5A3nqAHOhHtevNCJcXgLatQxoFF242zXM3DW7bxPqhDlDR3DZ3G7VznRHapEze9TdhpRFJ8mYKoi4as8p28GSWkCheAKXbsPJ2j3RUADSKlPFE5RKQfQV21rn/iAV9VC0x88xV49r4lS2IfRTzA00UX9B+cQXYxUaWzxZquGzWaD+sIsdkww7brY/UGCa6MY748lFut4Vf0e1fJhVGnlHMXwFXnVioJR+1wHzrTmXP1aa5Cp5AXtWTxSRrs+AOioW6pAR3jQEz/pLkAo/sOfJ4dRb3f+3VTP/rT6KWq8ciQTxztsUHuh7HTkb4dxkd5J6cnDgZ1cEGASmm1ft+HblrXdP4DHCy4a1EZZdt4VdDbLECGXHUXwvdSQWvFE4N36IJru7odAVj38KVdcy5O1EtszBS+knIKuu8PvkBlIlkj+Iy64/dDRKZ8O5u4U=
+  app: staging-example
