@@ -1,22 +1,19 @@
 {
-  "name": "travis-heroku-example",
+  "name": "netlify-example",
   "version": "0.0.0",
-  "dependencies": {
-    "express": "^4.16.3",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
-  },
   "scripts": {
-    "prestart": "npm run build",
-    "start": "node ./api",
-    "dev:server": "nodemon ./api --watch api",
-    "dev:client": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "nodemon": "^1.17.5"
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
   }
 }
